@@ -10,11 +10,17 @@
 body{
     min-height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
-    /* background-color: #000; */
+    flex-wrap: wrap;
     background-image: url(assets/clouds.gif);
     background-size: cover;
+}
+
+#title{
+    color: aqua;
+    align-self: flex-start;
+    width: 100%;
 }
 
 .container{
@@ -22,14 +28,16 @@ body{
     height: min-content;
     background-color: #fff;
     border-radius: 12px;
+    display: flex;
     padding: 28px;
+    flex-wrap: wrap;
 }
 
 .search-box{
-    width: 100%;
+    width: 600px;
     height: min-content;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
 }
 
